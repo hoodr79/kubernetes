@@ -1,4 +1,6 @@
 const path = require('path');
+var exec = require('ssh-exec');
+var v_host = 'XX.XX.XX.XXX'
 const express = require("express");
 
 process.env.WP_DISABLE_POLLING=1;
